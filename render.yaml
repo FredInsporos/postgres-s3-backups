@@ -33,3 +33,5 @@ services:
       # For example, 3.20
       - key: ALPINE_VERSION
         sync: false
+      - key: BACKUP_PREFIX
+        value: gapp-pg-db
